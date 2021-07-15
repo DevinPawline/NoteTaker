@@ -53,4 +53,12 @@ module.exports = app => {
             res.sendFile(path.join(__dirname, "../public/index.html"));
         });
         
-    
+        // Updates the json file whenever a note is added or deleted
+        funtion updateDb() {
+            fs.writeFile("db/db.json",JSON.stringify(notes, '\t'),err => {
+                if (err) throw err;
+                return true;
+            });
+        }
+    });
+}
