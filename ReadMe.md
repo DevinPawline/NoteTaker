@@ -15,11 +15,8 @@ Use the save button to save the note, click a saved note to view and use the del
 ### License:
 This project is licensed under:
 MIT
-### Contributing:
-N/A
-### Tests:
-In order to test open the console and run the following:
-```No test```
+### Video of Functionality:
+https://user-images.githubusercontent.com/79121046/125864677-69e1433a-4915-4261-be9a-e4dec7300c95.mp4
 ### Questions:
 If you have any questions contact me on [GitHub](https://github.com/devinpawline) or contact 
 Devin Pawline at pawlinedevin@gmail.com
